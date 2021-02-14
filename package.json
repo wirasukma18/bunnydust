@@ -1,0 +1,17 @@
+{
+    "name": "quotedreplies",
+    "version": "1.0.0",
+    "description": "quoted replies bot dm",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "twitter-autohook": "^1.4.0"
+    },
+    "engines": {
+        "node": "10.x"
+    },
+    "author": "james-muriithi",
+    "license": "MIT"
+}
