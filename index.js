@@ -7,11 +7,11 @@ const post = util.promisify(request.post);
 
 // set api keys from environment variables
 const oAuthConfig = {
-    token: (process.env.TWITTER_ACCESS_TOKEN || '').trim(),
-    token_secret: (process.env.TWITTER_ACCESS_TOKEN_SECRET || '').trim(),
-    consumer_key: (process.env.TWITTER_CONSUMER_KEY || '').trim(),
-    consumer_secret: (process.env.TWITTER_CONSUMER_SECRET || '').trim(),
-    env: (process.env.TWITTER_WEBHOOK_ENV || '').trim(),
+    token: (process.env.TWITTER_ACCESS_TOKEN || ''),
+    token_secret: (process.env.TWITTER_ACCESS_TOKEN_SECRET || ''),
+    consumer_key: (process.env.TWITTER_CONSUMER_KEY || ''),
+    consumer_secret: (process.env.TWITTER_CONSUMER_SECRET || ''),
+    env: (process.env.TWITTER_WEBHOOK_ENV || ''),
     port: 5000
 };
 
